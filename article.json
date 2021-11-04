@@ -1,0 +1,249 @@
+{"eArticle" : [
+        {
+			"name" : "송수연, 고혜지", 
+            "title" : "10대 딸 방바닥에 대소변... 엄마는 극단적 생각까지", 
+			"press" : "서울신문", 
+			"date" : "2020.10", 
+			"link" : "https://www.seoul.co.kr/news/newsView.php?id=20201012005012", 
+			"tags" : ["장애"]
+        }, 
+        {
+			"name" : "김효정", "title" : "백신 접종: 백신 사각지대... 백신과의 거리가 먼 사람들",
+		    "press" : "BBC코리아",
+			"date" : "2021.02",
+			"link" : "https://www.bbc.com/korean/features-56095014",
+			"tags" : ["장애"]
+		}, 
+        {
+			"name" : "고도예, 유원모, 장관석", "title" : "동부구치소 엘리베이터에 면마스크 재소자들 가득... 코로나 확산 당시 CCTV보니",
+		    "press" : "동아일보",
+			"date" : "2021.04",
+			"link" : "https://www.donga.com/news/Society/article/all/20210405/106255008",
+			"tags" : []
+		}, 
+        { 
+			"name" : "최유경", "title" : "교사들이 말하는 ‘코로나 2년차’… \"덧뺄셈도 힘든 초등학생\"",
+		    "press" : "KBS",
+			"date" : "2021.05",
+			"link" : "https://news.kbs.co.kr/news/view.do?ncd=5186566",
+			"tags" : ["교육"]
+		}, 
+        {
+			"name" : "김혜민", "title" : "열 중 넷은 \"코로나로 소득변화\"...늘었단 이들 있다?",
+		    "press" : "SBS 뉴스",
+			"date" : "2021.05",
+			"link" : "https://news.sbs.co.kr/news/endPage.do?news_id=N1006326172",
+			"tags" : []
+		}, 
+        {
+			"name" : "한국여성의전화", "title" : "코로나19상황, 한국에서만 가정폭력 줄었다?",
+		    "press" : "오마이뉴스",
+			"date" : "2020.04",
+			"link" : "http://www.ohmynews.com/NWS_Web/View/at_pg.aspx?CNTN_CD=A0002631889",
+			"tags" : ["젠더", "나이"]
+		}, 
+        {
+			"name" : "씨리얼", "title" : "교육 양극화에 대해서 말하고 싶어요",
+		    "press" : "",
+			"date" : "2021.01",
+			"link" : "https://www.youtube.com/watch?v=QrKiB9OtB28",
+			"tags" : ["교육", "소득"]
+		}, 
+        {
+			"name" : "KBS시사직격", "title" : "죽어야 보이는 사람들 - 2021 청년 고독사 보고서",
+		    "press" : "KBS",
+			"date" : "2021.05",
+			"link" : "https://www.youtube.com/watch?v=rzRGLpkIjvI",
+			"tags" : ["소득 나이"]
+		}, 
+        {
+			"name" : "이지연", "title" : "코로나19 6개월, '내안의 블루' 청소년이 우울하다",
+		    "press" : "뉴시스",
+			"date" : "2020.09",
+			"link" : "https://newsis.com/view/?id=NISX20200920_0001172254",
+			"tags" : ["나이"]
+		}, 
+        {
+			"name" : "이병로", "title" : "약자에 더 가혹한 코로나... 제2의 ‘라면 형제’구해야",
+		    "press" : "한국영농신문",
+			"date" : "2020.09",
+			"link" : "http://www.youngnong.co.kr/news/articleView.html?idxno=31950",
+			"tags" : ["소득", "나이"]
+		}, 
+        {
+			"name" : "김형은", "title" : "코로나19가 사회적 약자에게 미친 영향 4가지",
+		    "press" : "BBC 코리아",
+			"date" : "2020.03",
+			"link" : "https://www.bbc.com/korean/features-51797503",
+			"tags" : ["장애", "나이", "소득", "국적"]
+		}, 
+        {
+			"name" : "김유경", "title" : "코로나19는 모두에게 평등하지 않았다",
+		    "press" : "서울시립대신문",
+			"date" : "2021.03",
+			"link" : "https://press.uos.ac.kr/news/articleView.html?idxno=12447",
+			"tags" : ["교육", "소득", "장애"]
+		}, 
+        {
+			"name" : "하상윤", "title" : "누군가에겐 더 가혹한 ‘코로나19 재난’",
+			"press" : "세계일보",
+			"date" : "2020.04",
+			"link" : "https://segye.com/view/20200331524058",
+			"tags" : ["장애"]
+		}, 
+        {
+			"name" : "장우리", "title" : "코로나 6개월 사투의 또다른 주인공... 묵묵히 일하는 청소노동자",
+			"press" : "연합뉴스",
+			"date" : "2020.07",
+			"link" : "https://www.yna.co.kr/view/AKR20200718042700004",
+			"tags" : ["소득"]
+		}, 
+        {
+			"name" : "심인보", "title" : "코로나 시대의 택배: 회사는 돈 벌고 노동자는 쓰러진다",
+			"press" : "뉴스타파",
+			"date" : "2020.07",
+			"link" : "https://newstapa.org/article/sxdBf",
+			"tags" : ["소득"]
+		}, 
+        {
+			"name" : "박정훈", "title" : "\"코로나19, IMF에 가까워... 비정규직 1/4 실직\"",
+			"press" : "오마이뉴스",
+			"date" : "2020.07",
+			"link" : "http://www.ohmynews.com/NWS_Web/View/at_pg.aspx?CNTN_CD=A0002656824",
+			"tags" : ["소득"]
+		}, 
+        {
+			"name" : "김세희", "title" : "\"코로나에 병원 뺏겨 치료도 포기\"... 갈 곳 잃은 노숙자 환자들",
+			"press" : "KBS",
+			"date" : "2020.06",
+			"link" : "https://news.kbs.co.kr/news/view.do?ncd=4476501",
+			"tags" : ["소득"]
+		}, 
+        {
+			"name" : "강준모", "title" : "코로나19와 쪽방촌 주민들의 일상",
+			"press" : "쪽방신문",
+			"date" : "2020.07",
+			"link" : "http://www.beminor.com/news/articleView.html?idxno=14913",
+			"tags" : ["소득"]
+		}, 
+        {
+			"name" : "송인한", "title" : "코로나로 위기 몰린 사회적 약자, 외면하면 공동체 무너져",
+			"press" : "중앙일보",
+			"date" : "2020.03",
+			"link" : "https://www.joongang.co.kr/article/23736117",
+			"tags" : ["나이", "소득"]
+		}, 
+        {
+			"name" : "제정남", "title" : "코로나19 소득감소 사회적 약자일수록 심각",
+			"press" : "매일노동뉴스",
+			"date" : "2021.05",
+			"link" : "https://www.labortoday.co.kr/news/articleView.html?idxno=202928",
+			"tags" : ["소득", "젠더", "교육"]
+		}, 
+        {
+			"name" : "이철희", "title" : "재난은 약자에게 더 길고 가혹하다",
+			"press" : "한국일보",
+			"date" : "2021.03",
+			"link" : "https://www.hankookilbo.com/News/Read/A2021030211180002782",
+			"tags" : ["교육", "나이"]
+		}, 
+        {
+			"name" : "이상구", "title" : "코로나19, 교육 불평등의 불편한 현실을 드러내다",
+			"press" : "프레시안",
+			"date" : "2020.10",
+			"link" : "https://www.pressian.com/pages/articles/2020100511524581920#0DKU",
+			"tags" : ["교육", "소득"]
+		}, 
+        {
+			"name" : "하어영", "title" : "마스크도 지원금도 없다... 코로나19 위기의 이주노동자",
+			"press" : "한겨레",
+			"date" : "2020.06",
+			"link" : "https://www.hani.co.kr/arti/society/rights/949182.html",
+			"tags" : ["국적", "소득"]
+		}, 
+        {
+			"name" : "김경래", "title" : "이주노동자 \"필요할 때 쓰고 필요 없으면 버리나... 재난지원금 지급해야\"",
+			"press" : "KBS",
+			"date" : "2020.05",
+			"link" : "https://news.kbs.co.kr/news/view.do?ncd=4455787",
+			"tags" : ["국적", "소득"]
+		}, 
+        {
+			"name" : "김새롬", "title" : "근로임대아파트·콜센터에 여성이 있었다",
+			"press" : "한겨레21",
+			"date" : "2020.03",
+			"link" : "http://h21.hani.co.kr/arti/special/special_general/48410.html",
+			"tags" : ["젠더", "소득"]
+		}, 
+        {
+			"name" : "김종목", "title" : "김희정 \"당신 한국 사람 아냐, 누구 편을 들어\"",
+			"press" : "경향신문",
+			"date" : "2020.04",
+			"link" : "https://www.khan.co.kr/national/national-general/article/202004241706001#csidx346b407ab444dbda6ddf801b34845f8",
+			"tags" : ["국적", "소득"]
+		}, 
+        {
+			"name" : "이왕구", "title" : "비대면 수업에 학력격차 더 커졌고... 하위권은 아예 배제됐다",
+			"press" : "한국일보",
+			"date" : "2020.09",
+			"link" : "https://www.hankookilbo.com/News/Read/A2020090204360002226",
+			"tags" : ["교육", "소득", "나이"]
+		}, 
+        {
+			"name" : "김미란", "title" : "학교는 태블릿을 줬지만 아이는 배울 수 없었다",
+			"press" : "더스쿠프",
+			"date" : "2021.07",
+			"link" : "http://www.thescoop.co.kr/news/articleView.html?idxno=51790",
+			"tags" : ["소득", "교육", "나이"]
+		}, 
+        {
+			"name" : "이지원", "title" : "교육 중단만큼 무서운 감정중단",
+			"press" : "더스쿠프",
+			"date" : "2021.09",
+			"link" : "http://www.thescoop.co.kr/news/articleView.html?idxno=51853",
+			"tags" : ["소득", "교육", "나이"]
+		}, 
+        {
+			"name" : "남형도", "title" : "코로나에 밥 끊긴 아이들...'배달'을 갔다",
+			"press" : "머니투데이",
+			"date" : "2020.03",
+			"link" : "https://news.mt.co.kr/mtview.php?no=2020031322535733237&outlink=1&ref=%3A%2F%2F",
+			"tags" : ["소득", "나이"]
+		}, 
+        {
+			"name" : "천정인", "title" : "코로나19'에 갈 곳 없는 아이들... 애타는 부모들",
+			"press" : "연합뉴스",
+			"date" : "2020.03",
+			"link" : "https://www.yna.co.kr/view/AKR20200306046400054",
+			"tags" : ["나이", "소득"]
+		}, 
+        {
+			"name" : "장우리", "title" : "코로나 장기화로 '돌봄 공백' 심화... 아동센터 부담 가중",
+			"press" : "연합뉴스",
+			"date" : "2020.11",
+			"link" : "https://www.yna.co.kr/view/AKR20201129024700004",
+			"tags" : ["소득", "교육", "나이"]
+		}, 
+        {
+			"name" : "문광호, 이홍근", "title" : "코로나·폭염에 외출 막힌 사회적 약자들 ‘여름나기’ 더 고통",
+			"press" : "경향신문",
+			"date" : "2021.07",
+			"link" : "https://www.khan.co.kr/national/health-welfare/article/202107182106005",
+			"tags" : ["나이", "장애", "젠더"]
+		}, 
+        {
+			"name" : "홍보영", "title" : "코로나·가난·폭염' 중첩된 위기로 취약계층 '사망' 잇따라",
+			"press" : "천지일보",
+			"date" : "2021.08",
+			"link" : "http://www.newscj.com/news/articleView.html?idxno=890720",
+			"tags" : ["소득"]
+		}, 
+        {
+			"name" : "이진혁", "title" : "코로나 불평등' 백신조차 맞지 못하는 노숙자들",
+			"press" : "파이낸셜뉴스",
+			"date" : "2021.08",
+			"link" : "https://www.fnnews.com/news/202108151445502172",
+			"tags" : ["소득"]
+		}
+    ]
+}
