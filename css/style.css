@@ -27,7 +27,6 @@ html, header, p, footer{
   margin: 0;
 }
 
-/* 
 body {
   margin: 0;
   width: 100vw;
@@ -38,7 +37,7 @@ body {
 ul, li {
   margin: 0;
   list-style: none;
-} */
+}
 
 a {
   text-decoration: none;
