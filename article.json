@@ -385,7 +385,7 @@
 			"date" : "2021.01",
 			"link" : "https://www.youtube.com/watch?v=QrKiB9OtB28",
 			"tags" : ["교육", "소득"],
-			"paragraph" : ""
+			"paragraph" : "<iframe width='832' height='468' src='https://www.youtube.com/embed/QrKiB9OtB28' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>"
 		}, 
 		{
 			"name" : "KBS시사직격",
@@ -395,7 +395,7 @@
 			"date" : "2021.05",
 			"link" : "https://www.youtube.com/watch?v=rzRGLpkIjvI",
 			"tags" : ["나이", "소득"],
-			"paragraph" : ""
+			"paragraph" : "<iframe width='832' height='468' src='https://www.youtube.com/embed/rzRGLpkIjvI' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>"
 		}, 
 		{
 			"name" : "이지연",
@@ -463,9 +463,9 @@
 			"title" : "코로나 시대의 택배: 회사는 돈 벌고 노동자는 쓰러진다",
 			"press" : "뉴스타파",
 			"date" : "2020.07",
-			"link" : "https://www.youtube.com/watch?v=v5Y92F0ap28",
+			"link" : "https://newstapa.org/article/sxdBf",
 			"tags" : ["소득"],
-			"paragraph" : ""
+			"paragraph" : "<iframe width='832' height='468' src='https://www.youtube.com/embed/v5Y92F0ap28' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>"
 		}, 
 		{
 			"name" : "박정훈",
