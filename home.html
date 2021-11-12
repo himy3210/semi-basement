@@ -9,9 +9,19 @@
     <title>반지하</title>
     <link rel="stylesheet" href="css/style.css">
     <script defer src="script.js" ></script>
+    <script>
+        (function(d) {
+          var config = {
+            kitId: 'smu1wng',
+            scriptTimeout: 3000,
+            async: true
+          },
+          h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
+        })(document);
+      </script>
 
 </head>
-<body>
+<body class="">
     <div class="background">
         <video muted autoplay loop>
             <source src="src/back_scan.mp4" type="video/mp4" >
@@ -20,6 +30,7 @@
             <object data="src/title.svg" type="image/svg+xml"></object>
         </div>
         <div id="shadow"></div>
+        <audio id="storm" src="src/storm-sound.wav" autoplay loop>
     </div>
     <header class="header"> 
         <div id="virus01">
@@ -63,31 +74,77 @@
     </header>
     <main class="main-canvas">
         <div class="content-wrap">
-            <div id="subtitles">백신 접종: 백신 사각지대... 백신과의 거리가 먼 사람들</div>
+            <section id="regTag">
+                <div id="tagName">지역</div>
+                <div id="Lists-title"></div>
+            </section>
+            <section id="disTag">
+                <div id="tagName">장애</div>
+                <div id="Lists-title"></div>
+            </section>
+            <section id="fromTag">
+                <div id="tagName">국적</div>
+                <div id="Lists-title"></div>
+            </section>
+            <section id="genTag">
+                <div id="tagName">젠더</div>
+                <div id="Lists-title"></div>
+            </section>
+            <section id="eduTag">
+                <div id="tagName">교육</div>
+                <div id="Lists-title"></div>
+            </section>
+            <section id="ageTag">
+                <div id="tagName">나이</div>
+                <div id="Lists-title"></div>
+            </section>
+            <section id="incTag">
+                <div id="tagName">소득</div>
+                <div id="Lists-title"></div>
+            </section>
         </div>
     </main>
-    <div class="popup" id="pop-window">
-        <div class="close"></div>
-        <div class="article-container">
-            <div class="subtitle">
-                <h2>백신 접종: 백신 사각지대... 백신과의 거리가 먼 사람들</h2>
-            </div>
-            <div class="info">
-                <h3>조문영, BBC코리아, 2020.09</h3>
-            </div>
-            <div class="e-article">
-                <p>신종 코로나바이러스 감염증(코로나19) 백신 접종이 26일 시작됐다. 계획에 맞춰 예방 접종 순서가 짜이고 있지만, 불안감을 호소하고 있는 이들이 있다. 백신과 신종 코로나바이러스 감염증(코로나19) 방역과의 거리가 누구보다 멀리 느껴지는 사람들, 바로 이동이 어러운 '중증 장애인' 이야기다.<br><br>"장애인이 코로나에 걸리면 정말 답이 없습니다."<br><br>지난 3일 만난 중증 지체장애인 이상우(40) 씨는 코로나 백신 이야기가 나오자 대뜸 이 말을 했다. 매일 그가 마주하는 불안을 세상은 이해하고 있지 못한다고 느끼기 때문이다. 뇌병변 1급인 그는 혼자 마스크 착용도 불가할 정도로 거동이 어렵다. 그는 언어 장애도 있어 발음이 명확하지가 않다. 인터뷰는 문자를 음성으로 변화해주는 앱과 활동 지원사의 도움을 받아 진행됐다.<br><br>선천적으로 폐가 좋지 않아 이 씨는 수시로 마스크 속에서 쌕쌕거리는 소리와 마른기침을 쏟아냈다. 호흡기 기저질환이 있고 24시간 누군가의 도움 없이는 활동 자체가 어려운 이 씨는 코로나 19 고위험군에 속한다. 하지만 그는 접종 우선순위 대상이 아니다. 실제로 정부가 내놓은 접종 계획에는 중증장애인 거주 시설 입소자·종사자 등 39만 명이 2분기 접종 대상으로 지정돼 있다.다만, 시설이나 병원에 있지 않고 '집에서 생활하는 장애인'은 여기에 속하지 않는다.</p>
-                <div class="link">
-                    <a href="https://www.bbc.com/korean/features-56095014" target="_blank"><h4>원문 링크</h4></a>
+    <div class="vmbtns-wrap noshow">
+        <li id="list-btn"></li>
+        <li id="map-btn"></li>
+    </div>
+    <footer class="footer">
+        <div class="about">about</div>
+    </footer>
+    <div class="noshow" id="pop-window">
+        <button class="pop-back" onclick="closePop()" style='cursor:default;'></button>
+        <div class="pop-area">
+            <button class="close" onclick="closePop()"></button>
+            <div class="article-container">
+                <div class="subtitle">
+                    <h2></h2>
+                </div>
+                <div class="info">
+                    <h3></h3>
+                </div>
+                <div class="e-news">
+                    <h6 id=""></h6>
+                    <div class="p-link">
+                        <a href="" target="_blank"><h4>원문 링크</h4></a>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-    <footer class="footer"></footer>
-    <div class="vmbtns-wrap noshow">
-        <li id="list-btn"></li>
-        <li id="focus-btn"></li>
-        <li id="map-btn"></li>
+    <div class="noshow" id="aboutPage">
+        <section class="about-wrap">
+            <div class='about-title'>반지하: about</div>
+            <p>COVID-19가 퍼지기 시작할 때 각종 미디어는 ‘뉴노멀’을 외치곤 했다. 뉴노멀(New Normal)은 당연시 생각했던 기준이 새롭게 바뀐 것, 혹은 그런 시대라는 의미다. 직접 만나 회의하던 예전과 달리 화상회의가 기본값(default)이 된 시대, 출근하지 않고 편히 재택근무를 하는 시대, 학교의 수업이 온라인으로 이루어지는 시대. 
+	        </p>
+            <p>비대면 사회는 불편과 동시에 편리도 제공했다. 아침 저녁으로 고통스러웠던 출퇴근 지하철을 경험할 필요도 없어졌고, 지루한 강의를 아득바득 앉아 들을 필요없이 원하는 시간대에 녹화본으로 수강할 수 있었다. 어쩌면 사람들은 ‘그곳에 있어야 하고 그곳으로 이동해야 하는’ 공간 투쟁에서 한결 자유로워진 것이다. 물론 편리보다는 불편이 더욱 컸다. ‘비싼 월세를 내며 자취할 필요없이 본가에서 수업을 들을 수 있어 오히려 좋다’거나 ‘재미없는 상사의 개그에 맞출 필요가 없어졌다’는 말들은, 불편한 와중에 각자 긍정적인 마음을 가지려 다독인 것이라 생각한다. 하지만 스스로의 다독임이 아니라 정말로 긍정을 표하는 사람들도 있었다.
+	        </p>
+            <p>혹자는 ‘어쩌면 코로나로 인해 미래의 라이프스타일이 앞당겨 가까워졌다’며 위기를 기회로 삼자는 태도를 제안하기도 했다. 그들은 대체로 기술의 진보를 두팔 벌려 반기는 이들이었다. 이어 바뀐 일상과 미래를 대비하자는 책들도 출간되기 시작했다. 그런 책들은 대체로 ‘포스트코로나’라는 용어를 사용했다. ‘역사의 변곡점’이라거나 ‘코로나 이후 트렌트 변화’라거나. 사람들의 혼란을 해소해줄 수 있는양 말했고, 또 홍보했다. 다른 건 변하는데 여러분은 가만히 있을 거냐며. 꼭 주식 같았다. 
+	        </p>
+            <p>난 이런 모든 게 역겨웠다. ‘포스트(post-)’를 대비할 수 있다는 건, 일단 ‘지금 현재’를 이겨낼 수 있다는 것을 전제로 하기 때문이다. 스스로 인지하지 못할 정도로 당연스레 깔고가는 그 전제가 곧 기득권이었다. 사실 화상회의, 온라인 수업, 재택근무 등, 비대면 일상을 대표하는 그 모든 방식에는 ‘인터넷이 원활한 환경과 전자기기’가 있어야 한다. 난 그것을 당연하게 여기는 것이 역겨웠다. 
+	        </p>
+            <p>팬데믹 초기에 권장되었던 자가격리 또한 격차가 있었다. 자가격리란 자가에 머무르는 것인데, 격차를 인지하려면 ‘격리'보다는 ‘자가’에 초점을 두어야 한다. </p>
+        
+        </section>
     </div>
 </body>
 </html> 
