@@ -238,8 +238,8 @@ button{
 
 #tagName {
   position:absolute; 
-  width: 100px; height: calc(100% - 115px);
-  margin: 0 50px; top: 3px;
+  width: 100px; height: calc(100% - 15px);
+  margin: 0 50px; top: 3px; 
   border-right: solid;
   border-width: 1px;
   padding-left: 30px;
@@ -254,7 +254,7 @@ button{
 
 #Lists-title > li {
   margin-bottom: 100px;
-  display: inline-block;
+  display: block;
   cursor: pointer;
 }
 
